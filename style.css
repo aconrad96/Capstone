@@ -6,6 +6,7 @@ body{
   width: 400px;
   cursor: pointer;
   margin-right: 145px;
+  text-align: left;
 }
 #sign {
 width: 100%;
@@ -24,9 +25,9 @@ padding-bottom: 15px;
 
 header {
   background-color: #F16F14;
-  display: flex;
+  /* display: flex; */
   align-items: center;
-  max-height: 85px;
+  /* max-height: 85px; */
 }
 
 footer {
@@ -46,13 +47,14 @@ display: inline-block;
 display: flex;
 flex-direction: column;
 justify-content: center;
-}
+} */
 
 .shiftnav {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-} */
+  justify-content: space-between;
+  align-items: center;
+}
 
 li, a {
   font-family: "roboto" ;
